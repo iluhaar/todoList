@@ -1,3 +1,51 @@
 .complete {
     text-decoration: line-through;
 }
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(
+        to right,
+        rgb(15, 32, 39),
+        rgb(32, 58, 67),
+        rgb(44, 83, 100)
+      );
+}
+h1 {
+    color:white;
+}
+label {
+    font-size:25px;
+    font-weight: 200;
+}
+.kekshpek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todoContainer {
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    min-height: 250px;
+    min-width: 300px;
+    margin-bottom: 25px;
+    background: linear-gradient(
+    to right,
+    rgb(41, 128, 185),
+    rgb(109, 213, 250),
+    rgb(255, 255, 255)
+  );
+}
+
+
+.todoBlock {
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-weight:300;
+}
+
+.todoItem {
+    margin-bottom: 15px;
+}

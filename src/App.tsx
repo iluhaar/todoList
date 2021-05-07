@@ -26,9 +26,11 @@ const App = () => {
     newTodo.trim() !== "" && setTodos([...todos, { text: newTodo, complete: false }])
   }
   return (
-    <React.Fragment>
+    <React.Fragment> <div className="kekshpek"> 
+        <h1>Todo app</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <AddTodoForm addTodo={addTodo} />
+    </div>
     </React.Fragment>
   );
 }
