@@ -1,5 +1,5 @@
 import React from 'react';
-import "./../TodoListItem.css"
+import "./../TodoList.css"
 
 interface TodoListItemProps {
   todo: Todo;
